@@ -6,6 +6,7 @@ body {
 	text-align: center;
 	font-family: Sommet;
 	font-size: 24px;
+	margin: 0;
 }
 
 h1{
@@ -29,23 +30,95 @@ footer {
 	padding: 1%;
 }	
 
-.topnav{
-	position:fixed;
-	top:250px;
-	background-color: #DDDDDD;
+.container{
+	width: 80%;
+	margin: 0 auto;
 }
 
-.topnav a {
-	float:middle;
-	display:block;
-	color:#001f3f;
-	text-align: left;
-	padding:14px 16px;
-	text-decoration: underline;
-	font-size:30px;
+header{
+	background: #87BEEA;
+}	
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
 }
 
-.topnav a:hover {
-	background-color: #001f3f;
-	color: #DDDDDD;
+.logo {
+	float: left;
+	width: 40%;
 }
+
+nav{
+	float: right;
+}
+
+nav u1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 40px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	float: left;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: black;
+
+	position: center;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #87BEEA;
+    color: black;
+    font-family : Sommet;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
