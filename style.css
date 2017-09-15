@@ -1,38 +1,25 @@
-body {
-	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: white;
-	text-align: center;
-	font-family: Sommet;
-	font-size: 24px;
-	margin: 0;
-}
-
 h1{
 border-style: solid;
-border-width: 10px;
+border-width: 2px;
+text-align: auto;
 border-color: white;
-padding: 1%;
+padding: 0%;
 width: 70%;
-height: 10%;
-margin:auto;
-}
-
-p{
-	font-size: 18px;
+height: 20%;
+margin-left: 200px;
+font-size: 40px;
 }
 
 footer {
 	position:fixed;
 	bottom:0;
 	font-size: 30px;
-	padding: 1%;
+	padding: 0%;
 }	
 
 .container{
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
 }
 
 header{
@@ -47,11 +34,11 @@ header::after {
 
 .logo {
 	float: left;
-	width: 40%;
+	width: 35%;
 }
 
 nav{
-	float: right;
+	float: auto;
 }
 
 nav u1 {
@@ -70,7 +57,7 @@ nav a {
 	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 15px;
 	float: left;
 }
 
@@ -95,30 +82,42 @@ nav a:hover::before {
 	width: 100%;
 }
 
-/* Dropdown Button */
-.dropbtn {
-    background-color: #87BEEA;
-    color: black;
-    font-family : Sommet;
-    font-size: 30px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
+h2 {
+	margin-left: 180px;
+	margin-right: 180px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	padding: 0px;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+body {
+	background: white;  /* fallback for old browsers */
+	color: white;
+	text-align: center;
+	font-family: Sommet;
+	font-size: 24px;
+	margin: 0;
+	padding: 0px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+#text_box {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 1000px;
+	height: auto;
+	background: rgba(0,0,0, 0.7);
+	color: white;
+	border: 2px solid white;
+	text-align: left;
+} 
 
+body {
+	font-family: Sommet;
+	margin: 0;
+	padding: 0;
+
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e5/2b/e1/e52be13fafc8965e37892c6d8811e8c3.png");
+}
